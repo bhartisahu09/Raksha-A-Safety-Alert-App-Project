@@ -1,0 +1,112 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\My Project\Clg project\Raksha-A-Safety-Alert-App-Project-main\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\My Project\Clg project\Raksha-A-Safety-Alert-App-Project-main\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->D:\My Project\Clg project\Raksha-A-Safety-Alert-App-Project-main\app\src\main\AndroidManifest.xml:24:5-81
+11-->D:\My Project\Clg project\Raksha-A-Safety-Alert-App-Project-main\app\src\main\AndroidManifest.xml:24:22-78
+12    <uses-permission android:name="android.permission.SEND_SMS" />
+12-->D:\My Project\Clg project\Raksha-A-Safety-Alert-App-Project-main\app\src\main\AndroidManifest.xml:25:5-67
+12-->D:\My Project\Clg project\Raksha-A-Safety-Alert-App-Project-main\app\src\main\AndroidManifest.xml:25:22-64
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->D:\My Project\Clg project\Raksha-A-Safety-Alert-App-Project-main\app\src\main\AndroidManifest.xml:26:5-79
+13-->D:\My Project\Clg project\Raksha-A-Safety-Alert-App-Project-main\app\src\main\AndroidManifest.xml:26:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\My Project\Clg project\Raksha-A-Safety-Alert-App-Project-main\app\src\main\AndroidManifest.xml:27:5-67
+14-->D:\My Project\Clg project\Raksha-A-Safety-Alert-App-Project-main\app\src\main\AndroidManifest.xml:27:22-64
+15    <uses-permission android:name="android.permission.CALL_PHONE" />
+15-->D:\My Project\Clg project\Raksha-A-Safety-Alert-App-Project-main\app\src\main\AndroidManifest.xml:28:5-69
+15-->D:\My Project\Clg project\Raksha-A-Safety-Alert-App-Project-main\app\src\main\AndroidManifest.xml:28:22-66
+16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+16-->D:\My Project\Clg project\Raksha-A-Safety-Alert-App-Project-main\app\src\main\AndroidManifest.xml:30:5-75
+16-->D:\My Project\Clg project\Raksha-A-Safety-Alert-App-Project-main\app\src\main\AndroidManifest.xml:30:22-72
+17
+18    <application
+18-->D:\My Project\Clg project\Raksha-A-Safety-Alert-App-Project-main\app\src\main\AndroidManifest.xml:5:5-23:19
+19        android:allowBackup="true"
+19-->D:\My Project\Clg project\Raksha-A-Safety-Alert-App-Project-main\app\src\main\AndroidManifest.xml:6:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.7.0] C:\Users\BHARTI\.gradle\caches\transforms-2\files-2.1\9754c052f0558b8f3e575e1b1d644b1f\core-1.7.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->D:\My Project\Clg project\Raksha-A-Safety-Alert-App-Project-main\app\src\main\AndroidManifest.xml:7:9-43
+23        android:label="@string/app_name"
+23-->D:\My Project\Clg project\Raksha-A-Safety-Alert-App-Project-main\app\src\main\AndroidManifest.xml:8:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->D:\My Project\Clg project\Raksha-A-Safety-Alert-App-Project-main\app\src\main\AndroidManifest.xml:9:9-54
+25        android:supportsRtl="true"
+25-->D:\My Project\Clg project\Raksha-A-Safety-Alert-App-Project-main\app\src\main\AndroidManifest.xml:10:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.MyApplication" >
+27-->D:\My Project\Clg project\Raksha-A-Safety-Alert-App-Project-main\app\src\main\AndroidManifest.xml:11:9-51
+28        <activity android:name="com.example.myapplication.Activity3" />
+28-->D:\My Project\Clg project\Raksha-A-Safety-Alert-App-Project-main\app\src\main\AndroidManifest.xml:12:9-56
+28-->D:\My Project\Clg project\Raksha-A-Safety-Alert-App-Project-main\app\src\main\AndroidManifest.xml:12:19-44
+29        <activity android:name="com.example.myapplication.Register" />
+29-->D:\My Project\Clg project\Raksha-A-Safety-Alert-App-Project-main\app\src\main\AndroidManifest.xml:13:9-46
+29-->D:\My Project\Clg project\Raksha-A-Safety-Alert-App-Project-main\app\src\main\AndroidManifest.xml:13:19-43
+30        <activity android:name="com.example.myapplication.Activity2" />
+30-->D:\My Project\Clg project\Raksha-A-Safety-Alert-App-Project-main\app\src\main\AndroidManifest.xml:14:9-47
+30-->D:\My Project\Clg project\Raksha-A-Safety-Alert-App-Project-main\app\src\main\AndroidManifest.xml:14:19-44
+31        <activity android:name="com.example.myapplication.MainActivity" >
+31-->D:\My Project\Clg project\Raksha-A-Safety-Alert-App-Project-main\app\src\main\AndroidManifest.xml:16:9-22:20
+31-->D:\My Project\Clg project\Raksha-A-Safety-Alert-App-Project-main\app\src\main\AndroidManifest.xml:16:19-47
+32            <intent-filter>
+32-->D:\My Project\Clg project\Raksha-A-Safety-Alert-App-Project-main\app\src\main\AndroidManifest.xml:17:13-21:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->D:\My Project\Clg project\Raksha-A-Safety-Alert-App-Project-main\app\src\main\AndroidManifest.xml:18:17-69
+33-->D:\My Project\Clg project\Raksha-A-Safety-Alert-App-Project-main\app\src\main\AndroidManifest.xml:18:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->D:\My Project\Clg project\Raksha-A-Safety-Alert-App-Project-main\app\src\main\AndroidManifest.xml:20:17-77
+35-->D:\My Project\Clg project\Raksha-A-Safety-Alert-App-Project-main\app\src\main\AndroidManifest.xml:20:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity
+38-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\BHARTI\.gradle\caches\transforms-2\files-2.1\5b5d60d11241fe83fffc0933874100f4\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:9-22:45
+39            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+39-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\BHARTI\.gradle\caches\transforms-2\files-2.1\5b5d60d11241fe83fffc0933874100f4\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:19-85
+40            android:exported="false"
+40-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\BHARTI\.gradle\caches\transforms-2\files-2.1\5b5d60d11241fe83fffc0933874100f4\jetified-play-services-base-18.0.0\AndroidManifest.xml:22:19-43
+41            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+41-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\BHARTI\.gradle\caches\transforms-2\files-2.1\5b5d60d11241fe83fffc0933874100f4\jetified-play-services-base-18.0.0\AndroidManifest.xml:21:19-78
+42
+43        <meta-data
+43-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\BHARTI\.gradle\caches\transforms-2\files-2.1\d3b3c8131716c1b96615729d79cc8ef0\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+44            android:name="com.google.android.gms.version"
+44-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\BHARTI\.gradle\caches\transforms-2\files-2.1\d3b3c8131716c1b96615729d79cc8ef0\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+45            android:value="@integer/google_play_services_version" />
+45-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\BHARTI\.gradle\caches\transforms-2\files-2.1\d3b3c8131716c1b96615729d79cc8ef0\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+46
+47        <provider
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\BHARTI\.gradle\caches\transforms-2\files-2.1\873fae0beeff47808d46bd64157b4d70\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+48            android:name="androidx.startup.InitializationProvider"
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\BHARTI\.gradle\caches\transforms-2\files-2.1\873fae0beeff47808d46bd64157b4d70\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+49            android:authorities="com.example.myapplication.androidx-startup"
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\BHARTI\.gradle\caches\transforms-2\files-2.1\873fae0beeff47808d46bd64157b4d70\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+50            android:exported="false" >
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\BHARTI\.gradle\caches\transforms-2\files-2.1\873fae0beeff47808d46bd64157b4d70\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+51            <meta-data
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\BHARTI\.gradle\caches\transforms-2\files-2.1\873fae0beeff47808d46bd64157b4d70\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+52                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\BHARTI\.gradle\caches\transforms-2\files-2.1\873fae0beeff47808d46bd64157b4d70\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+53                android:value="androidx.startup" />
+53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\BHARTI\.gradle\caches\transforms-2\files-2.1\873fae0beeff47808d46bd64157b4d70\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+54            <meta-data
+54-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\BHARTI\.gradle\caches\transforms-2\files-2.1\336367916adc8311afb7ae7d42fe4bb0\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+55                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+55-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\BHARTI\.gradle\caches\transforms-2\files-2.1\336367916adc8311afb7ae7d42fe4bb0\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+56                android:value="androidx.startup" />
+56-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\BHARTI\.gradle\caches\transforms-2\files-2.1\336367916adc8311afb7ae7d42fe4bb0\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+57        </provider>
+58    </application>
+59
+60</manifest>
